@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/image_site_Web/share.png" />
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css" />
+    <!--Import animate.css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <!--Import perso css-->
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Fleury Michon </title>
+</head>
+
+<body id="body" style="overflow-x:hidden;">
+
+    <nav class="navlogo animated fadeInDown" id="top">
+        <div class="nav-wrapper">
+            <a href="Acceuil.html" class="brand-logo center">
+                <img src="img/Chartre graphique/logo couleur.png" alt="LOGO" class="FMNav">
+            </a>
+        </div>
+    </nav>
+
+    <div class="navbar-fixed animated fadeInDown">
+        <nav class="nav-extended navnav txt-black">
+            <div class="nav-wrapper">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger txt-black">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li>
+                        <a class="onpage" href="History.html">Fleury Michon</a>
+                    </li>
+                    <li>
+                        <a href="mission.html">Mission</a>
+                    </li>
+                    <li>
+                        <a href="Futur.html">Mon Avenir</a>
+                    </li>
+                    <li>
+                        <a href="laTechnique.html">La Technique</a>
+                    </li>
+                    <li>
+                        <a href="LesPtitPlus.html">Les Ptits +</a>
+                    </li>
+                </ul>
+                <a href="#top" class="right txt-black tothetop">
+                    <i class="material-icons">arrow_upward</i>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="History.html">Fleury Michon</a>
+        </li>
+        <li>
+            <a href="mission.html">Mission</a>
+        </li>
+        <li>
+            <a href="Futur.html">Mon Avenir</a>
+        </li>
+        <li>
+            <a href="laTechnique.html">La Technique</a>
+        </li>
+        <li>
+            <a class="onpage" href="LesPtitPlus.html">Les Ptits +</a>
+        </li>
+    </ul>
+    <div class="bandeauFM parallax-container shadow txt-align">
+        <div class="parallax">
+            <img src="img/image_site_Web/FMBD.jpg" alt="">
+        </div>
+        <h1 class="extraitHistoire txtMore animated bounceIn">Fleury Michon une longue histoire ...</h1>
+        <p class="extraitHistoire extraipetit animated bounceInUp">
+            « Félix Fleury s'associe en 1905 à Lucien Michon, son beau-frère négociant en viande, tous les deux d’origines vendéennes...»
+        </p>
+    </div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col m4 s12  txt-align partiH" id="histoire">
+                    <i class="material-icons iconshist animated shake ">history</i>
+                    <h1 id="titreH" class="none">Histoire</h1>
+                    <p id="descriptionH" class="txt">Fleury Michon créer en premier temps aux halles de Paris dans les années 1905, mais avec l’arrivée de
+                        la première guerre mondiale l'entreprise doit fermer ...
+                        <a href="javascript: slideH()" id="LPH">Lire plus</a>
+                    </p>
+                    <p class="none" id="txtH-more">Fleury Michon s’est créé en premier lieu aux halles de Paris, mais c'est avec l’arrivée de la Première
+                        Guerre Mondiale que l'entreprise doit se stopper.À partir des années 20 Pierre Fleury, le petit-fils,
+                        va relancer l’entreprise centralisée sur les bases établies depuis la création. Et c'est en 1934
+                        que l’aventure commence à Pouzauges.
+                        <br> Années 60 et 70 Fleury Michon se lance dans la production de plats cuisinés frais pour le secteur
+                        de la restauration commerciale.
+                        <br> Aujourd’hui Fleury Michon est divisé en plusieurs sites répartis dans la Vendée mais aussi à l’international,
+                        avec un site de production au Canada, Les différent sites ont permis de créer une base de produits
+                        plus variée.
+                        <br>
+                        <br>
+                        <a class="btn-floating btn-large waves-effect waves-light red" href="javascript: restart()">
+                            <i class="material-icons">close</i>
+                        </a>
+                    </p>
+
+                </div>
+                <div class="col m4 s12  txt-align partiH" id="group">
+                    <i class="material-icons iconshist animated shake">group</i>
+                    <h1 id="titreG" class="none">Groupe</h1>
+                    <p id="descriptionG" class="txt">Depuis 2010 : Fleury Michon s'engage pour le #MANGERMIEUX
+                        <a href="javascript: slideG()" class="" id="LPG">Lire plus</a>
+                    </p>
+                    <p class="none" id="txtG-more">
+                        <img src="img/image_site_Web/label.png" class="rad imgmissi">
+                        <br>En 2010, Fleury Michon va s'engager dans le manger mieux en signant la charte d'engagement le Programme
+                        National Nutrition Santé, PNNS, qui est un plan visant à améliorer l'état de santé de la population
+                        en s'orientant sur la bonne nutrition. Et c'est en 2013 qu’ils vont entretenir les accords d'engagements
+                        avec ces chartes. Aujourd'hui Fleury Michon a créé le "venez vérifier" qui vise à sensibiliser le
+                        consommateur en l'invitant à venir vérifier par lui-même la pêche en Alaska. Cette même année Fleury
+                        Michon que l'entreprise lance sa nouvelle devise « Aider les Hommes à manger mieux chaque jour »
+                        , va en découdre de cette direction une nouvelle gamme " J'aime" avec des jambons sans OGM et sans
+                        antibiotiques en partenariat avec les éleveurs impliqué dans le Manger Mieux.
+                        <br>
+                        <br>
+                        <a class="btn-floating btn-large waves-effect waves-light red" href="javascript: restart()">
+                            <i class="material-icons">close</i>
+                        </a>
+                    </p>
+                </div>
+                <div class="col m4 s12 txt-align partiH" id="enemy">
+                    <i class="material-icons iconshist animated shake ">highlight_off</i>
+                    <h1 id="titreE" class="none">Menaces et influences</h1>
+                    <p id="descriptionE" class="txt">Fleury Michon est une marque connue par 99 % des français et consommé par 74% d’entre eux...
+                        <a href="javascript: slideE()" id="LPE">Lire plus</a>
+                    </p>
+                    <p class="none" id="txtE-more">
+                        <img src="img/Image article/graph.png" alt="">
+                        <br> L'influence de Fleury Michon et son rayonnement au niveau national positionne l'entreprise très
+                        haut dans sa catégorie, si nous prenons l'exemple de Marie un de ses concurrents principaux dans la
+                        vente de prêt à manger pour particulier, on voit très clairement, sur le graphique, la place du Leadership
+                        que prend la marque vendéenne qui possède 30 % des parts dans cette catégorie.
+                        <br>
+                        <br>
+                        <a class="btn-floating btn-large waves-effect waves-light red" href="javascript: restart()">
+                            <i class="material-icons">close</i>
+                        </a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Hfleury">
+        <div class="container">
+            <div class="row">
+                <div class="txt-align imgHfleury parallax-container ">
+                    <div class="parallax">
+                        <img src="img/image_site_Web/pierrefleury-equipe300dpi.jpg" alt="">
+                    </div>
+                    <div class=" extraitDevise">
+                        <p class="devise">« Aider les Hommes à manger mieux chaque jour »
+                            <br>
+                            <cite> Fleury Michon</cite>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p class="legende">
+        <i>* Pour des raisons de confidentialité nous ne pouvons pas dévoiler ceci.</i>
+    </p>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+    <!--JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
